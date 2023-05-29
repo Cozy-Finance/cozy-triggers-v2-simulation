@@ -3,16 +3,16 @@ pragma solidity 0.8.16;
 
 import "forge-std/Test.sol";
 import "chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
-import "src/interfaces/IBaseTrigger.sol";
+import "contracts/interfaces/IBaseTrigger.sol";
 
 // import {IBaseTrigger} from "src/interfaces/IBaseTrigger.sol";
-import {ICostModel} from "src/interfaces/ICostModel.sol";
-import {IERC20} from "src/interfaces/IERC20.sol";
+import {ICostModel} from "contracts/interfaces/ICostModel.sol";
+import {IERC20} from "contracts/interfaces/IERC20.sol";
 // import {IManager} from "src/interfaces/IManager.sol";
 // import {ISet} from "src/interfaces/ISet.sol";
 // import {ITrigger} from "src/interfaces/ITrigger.sol";
-import {SetConfig} from "src/structs/Configs.sol";
-import {MarketState} from "src/structs/StateEnums.sol";
+import {SetConfig} from "contracts/structs/Configs.sol";
+import {MarketState} from "contracts/structs/StateEnums.sol";
 
 contract TriggerTestSetup is Test {
   using stdStorage for StdStorage;

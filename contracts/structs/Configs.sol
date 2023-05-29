@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.8.0;
 
-import {IDripDecayModel} from "src/interfaces/IDripDecayModel.sol";
-import {ICostModel} from "src/interfaces/ICostModel.sol";
-import {ITrigger} from "src/interfaces/ITrigger.sol";
+import {IDripDecayModel} from "contracts/interfaces/IDripDecayModel.sol";
+import {ICostModel} from "contracts/interfaces/ICostModel.sol";
+import {ITrigger} from "contracts/interfaces/ITrigger.sol";
 
 /// @notice Set-level configuration.
 struct SetConfig {

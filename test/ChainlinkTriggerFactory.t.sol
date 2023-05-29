@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: Unlicensed
 pragma solidity 0.8.16;
 
-import "src/ChainlinkTriggerFactory.sol";
+import "contracts/ChainlinkTriggerFactory.sol";
 import "test/utils/TriggerTestSetup.sol";
 import "test/utils/MockChainlinkOracle.sol";
-import {MarketState} from "src/structs/StateEnums.sol";
-import {TriggerMetadata} from "src/structs/Triggers.sol";
+import {MarketState} from "contracts/structs/StateEnums.sol";
+import {TriggerMetadata} from "contracts/structs/Triggers.sol";
 
 // TODO Use `vm.mockCall` instead of a dedicated mocking contract.
 contract MockManager {

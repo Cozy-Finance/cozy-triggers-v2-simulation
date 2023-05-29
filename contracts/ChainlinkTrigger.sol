@@ -4,7 +4,7 @@ pragma solidity 0.8.16;
 import "chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 import "solmate/utils/FixedPointMathLib.sol";
 
-import "src/abstract/BaseTrigger.sol";
+import "contracts/abstract/BaseTrigger.sol";
 
 /**
  * @notice A trigger contract that takes two addresses: a truth oracle and a tracking oracle.

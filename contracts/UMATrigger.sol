@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: Unlicensed
 pragma solidity 0.8.16;
 
-import "src/abstract/BaseTrigger.sol";
-import "src/interfaces/OptimisticOracleV2Interface.sol";
-import "src/lib/SafeTransferLib.sol";
+import "contracts/abstract/BaseTrigger.sol";
+import "contracts/interfaces/OptimisticOracleV2Interface.sol";
+import "contracts/lib/SafeTransferLib.sol";
 
 /**
  * @notice This is an automated trigger contract which will move markets into a

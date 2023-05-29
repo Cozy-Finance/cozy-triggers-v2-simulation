@@ -3,8 +3,8 @@ pragma solidity 0.8.16;
 
 import "uma-protocol/packages/core/contracts/oracle/interfaces/FinderInterface.sol";
 import "script/ScriptUtils.sol";
-import "src/ChainlinkTriggerFactory.sol";
-import "src/UMATriggerFactory.sol";
+import "contracts/ChainlinkTriggerFactory.sol";
+import "contracts/UMATriggerFactory.sol";
 
 /**
  * @notice Purpose: Local deploy, testing, and production.

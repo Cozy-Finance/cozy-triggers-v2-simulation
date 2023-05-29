@@ -2,9 +2,9 @@
 pragma solidity ^0.8.0;
 
 import {AggregatorV3Interface} from "chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
-import {IManager} from "src/interfaces/IManager.sol";
-import {ISet} from "src/interfaces/ISet.sol";
-import {MarketState} from "src/structs/StateEnums.sol";
+import {IManager} from "contracts/interfaces/IManager.sol";
+import {ISet} from "contracts/interfaces/ISet.sol";
+import {MarketState} from "contracts/structs/StateEnums.sol";
 
 /**
  * @notice A trigger contract that takes two addresses: a truth oracle and a tracking oracle.

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: Unlicensed
 pragma solidity 0.8.16;
 
-import {IBaseTrigger} from "src/interfaces/IBaseTrigger.sol";
-import {IManager} from "src/interfaces/IManager.sol";
-import {ISet} from "src/interfaces/ISet.sol";
-import {MarketState} from "src/structs/StateEnums.sol";
+import {IBaseTrigger} from "contracts/interfaces/IBaseTrigger.sol";
+import {IManager} from "contracts/interfaces/IManager.sol";
+import {ISet} from "contracts/interfaces/ISet.sol";
+import {MarketState} from "contracts/structs/StateEnums.sol";
 
 /**
  * @dev Core trigger interface and implementation. All triggers should inherit from this to ensure they conform

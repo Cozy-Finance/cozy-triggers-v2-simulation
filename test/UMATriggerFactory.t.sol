@@ -2,9 +2,9 @@
 pragma solidity 0.8.16;
 
 import "uma-protocol/packages/core/contracts/oracle/interfaces/OracleAncillaryInterface.sol";
-import "src/UMATriggerFactory.sol";
+import "contracts/UMATriggerFactory.sol";
 import "test/utils/TriggerTestSetup.sol";
-import {TriggerMetadata} from "src/structs/Triggers.sol";
+import {TriggerMetadata} from "contracts/structs/Triggers.sol";
 
 contract DeployTriggerSharedTest is TriggerTestSetup {
   UMATriggerFactory factory;

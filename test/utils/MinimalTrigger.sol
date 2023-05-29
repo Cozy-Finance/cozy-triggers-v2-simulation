@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Unlicensed
 pragma solidity 0.8.16;
 
-import "src/abstract/BaseTrigger.sol";
+import "contracts/abstract/BaseTrigger.sol";
 
 contract MinimalTrigger is BaseTrigger {
   bool public testAcknowledged;

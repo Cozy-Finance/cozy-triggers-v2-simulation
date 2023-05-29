@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.8.0;
 
-import {MarketState} from "src/structs/StateEnums.sol";
+import {MarketState} from "contracts/structs/StateEnums.sol";
 /**
  * @notice All protection markets live within a set.
  */

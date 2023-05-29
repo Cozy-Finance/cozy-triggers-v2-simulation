@@ -2,9 +2,9 @@
 pragma solidity ^0.8.0;
 
 import {AggregatorV3Interface} from "chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
-import {IChainlinkTrigger} from "src/interfaces/IChainlinkTrigger.sol";
-import {IManager} from "src/interfaces/IManager.sol";
-import {TriggerMetadata} from "src/structs/Triggers.sol";
+import {IChainlinkTrigger} from "contracts/interfaces/IChainlinkTrigger.sol";
+import {IManager} from "contracts/interfaces/IManager.sol";
+import {TriggerMetadata} from "contracts/structs/Triggers.sol";
 
 /**
  * @notice Deploys Chainlink triggers that ensure two oracles stay within the given price

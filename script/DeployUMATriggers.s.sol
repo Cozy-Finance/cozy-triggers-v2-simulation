@@ -2,7 +2,7 @@
 pragma solidity 0.8.16;
 
 import "script/ScriptUtils.sol";
-import "src/UMATriggerFactory.sol";
+import "contracts/UMATriggerFactory.sol";
 
 /**
  * @notice Purpose: Local deploy, testing, and production.

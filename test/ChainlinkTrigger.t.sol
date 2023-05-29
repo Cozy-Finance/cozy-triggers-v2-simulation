@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: Unlicensed
 pragma solidity 0.8.16;
 
-import "src/ChainlinkTrigger.sol";
+import "contracts/ChainlinkTrigger.sol";
 import "test/utils/TriggerTestSetup.sol";
 import "test/utils/MockChainlinkOracle.sol";
-import {MarketState} from "src/structs/StateEnums.sol";
+import {MarketState} from "contracts/structs/StateEnums.sol";
 
 contract MockManager {
   // Any set you ask about is managed by this contract \o/.
