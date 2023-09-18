@@ -10,8 +10,8 @@ contract DummyTrigger is BaseTrigger {
     return true;
   }
 
-    function trigger() public returns (MarketState) {
-      _updateTriggerState(MarketState.TRIGGERED);
-      return state;
+  function trigger() public returns (MarketState) {
+    _updateTriggerState(MarketState.TRIGGERED);
+    return state;
   }
 }
