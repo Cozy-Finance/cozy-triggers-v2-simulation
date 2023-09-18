@@ -9,4 +9,9 @@ contract DummyTrigger is BaseTrigger {
   function acknowledged() public pure override returns (bool) {
     return true;
   }
+
+    function trigger() public returns (MarketState) {
+      _updateTriggerState(MarketState.TRIGGERED);
+      return state;
+  }
 }
